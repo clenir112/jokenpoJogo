@@ -1,0 +1,73 @@
+/* Global Styles */
+body {
+  background-color: #FFB6C1;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #00000;
+  position: relative;
+}
+
+/*image*/
+body {
+    background-image: url("https://i.pinimg.com/736x/50/69/5a/50695a4a4bcf1aa7f3c1a2c196d7e458.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  }
+
+/* Logo Styles */
+.logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  max-width: 150px;
+  width: auto;
+}
+
+/* Container with the background image */
+.container {
+  background: url() no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Content div for text and button */
+.content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  border-radius: 8px;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+}
+
+/* Button Styles */
+button {
+  background-color: #ff1b7b;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1ABC9C;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px;
+  color: black;
+  width: 100px;
+}
